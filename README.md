@@ -32,6 +32,17 @@ Review and edit the post in the Streamlit UI.
 
 Copy and share it directly on LinkedIn!
 
+🔧 Project Structure
+
+linkedin-post-generator/
+│── data/                     # Raw and processed data
+│── models/                   # Llama 3.3 model configurations
+│── app.py                    # Streamlit UI application
+│── preprocessed.py            # Data processing functions
+│── post_generator.py          # LLM-based content generator
+│── requirements.txt           # Dependencies
+│── README.md                  # Documentation
+
 📌 Technologies Used
 
 Python 🐍
